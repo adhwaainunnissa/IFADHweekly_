@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADHWA AINUN NISSA</title>
+    
+    <!-- CSS -->
+     <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <H1> Portofolio Adhwa</H1>
+    <hr/>
+
+    <!-- Navbar -->
+    <table border="1" cellspacing="" cellpading=""> 
+        <tr>
+            <td><a href="index.php">Home</a></td>
+            <td><a href="Profil.php">Profile</a></td>
+            <td><a href="Kontak.php">Kontak</a></td>
+            <td><a href="DataMahasiswa.php">Data Mahasiswa</a></td>
+        </tr>
+    </table>
+    
+    <!-- judul -->
+    <h2>PORTOFOLIO</h2>
+
+    <img src="assets/images/Adhwa.JPG" alt ="Foto Adhwa" width="140" height = "160">
+    
+    <!-- deskripsi  -->
+    <p style="max-width:600px; text-align: justify;">
+    Adhwa Ainun Nissa adalah mahasiswi S1 Informatika di Universitas Muhammadiyah Semarang 
+    yang memiliki minat besar pada dunia teknologi dan kreativitas digital. 
+    Ia tertarik pada bidang UI/UX design dan front-end development, serta bercita-cita 
+    untuk berkarier di bidang tersebut di masa depan.
+</p>
+
+<ul>
+    <li><b>Nama:</b> Adhwa Ainun Nissa</li>
+    <li><b>Status:</b> <i>Mahasiswa</i></li>
+    <li><b>Prodi:</b> S1 Informatika</li>
+    <li><b>Fakultas:</b> Fakultas Ilmu Komputer</li>
+    <li><b>Email:</b> adhwaadhainss@gmail.com</li>
+    <li><b>Hobi:</b> Desain</li>
+</ul>
+    <h3>Tools yang di kuasain</h3>
+    <ul>
+        <li>Figma</li>
+        <li>Canva</li>
+        <li>Capcut</li>
+        <li>CorelDRAW</li>
+    </ul>
+</body>
+</html>

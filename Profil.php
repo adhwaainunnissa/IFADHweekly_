@@ -14,10 +14,10 @@
     <!-- Navbar -->
     <table>
     <tr>
-        <td><a href="index.html">Home</a></td>
-        <td><a href="profil.Html">Profile</a></td>
-        <td><a href="kontak.html">Kontak</a></td>
-        <td><a href="datamahasiswa.html">Data Mahasiswa</a></td>
+        <td><a href="index.php">Home</a></td>
+        <td><a href="profil.php">Profile</a></td>
+        <td><a href="kontak.php">Kontak</a></td>
+        <td><a href="datamahasiswa.php">Data Mahasiswa</a></td>
     </tr>
 
     <h2>Profile</h2>

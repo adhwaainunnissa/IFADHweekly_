@@ -1,3 +1,56 @@
+<?php
+
+echo "Hello, World!<br>";
+
+$nama = "Adhwa Ainun Nissa";
+
+echo "Nama saya adalah " . $nama . "<br>";
+
+// Di sini $a sudah diganti menjadi $i agar tidak error lagi
+for($i = 0; $i < 6; $i++)
+{
+    if($i % 2 == 0){
+        // Bagian ini mendeteksi angka genap (0, 2, 4)
+    }
+}
+
+$koneksi = mysqli_connect("localhost", "root", "", "db_mahasiswa");
+// if($koneksi){
+
+
+$query = "SELECT * FROM mahasiswa";
+
+$result = mysqli_query($koneksi, $query);
+
+
+/// ambil data (fetch) mahasiswa dari lemari result
+/// mysqli_fetch_row
+/// mysqli_fetch_assoc
+/// mysqli_fetch_object
+/// mysqli_fetch_array
+
+
+
+
+    
+?>
+<tr>
+    <td align="center"><?= $no++; ?></td>
+    <td><?= $mhs['nama']; ?></td>
+    <td align="center"><?= $mhs['nim']; ?></td>
+    <td align="center"><?= $mhs['jurusan']; ?></td>
+    <td align="center"><?= $mhs['email']; ?></td>
+    <td align="center"><?= $mhs['telepon']; ?></td>
+    <td align="center"><img src="assets/images/<?= $mhs['foto']; ?>" width="70px" /></td>
+    <td>
+        <a href="editdata.php?id=<?= $mhs['id']; ?>"><button>EDIT</button></a> | 
+        <a href="deletedata.php?id=<?= $mhs['id']; ?>"><button>DELETE</button></a>
+    </td>
+</tr>
+<?php
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,15 +67,15 @@
     <!-- Navbar -->
     <table border="1" cellspacing="" cellpading=""> 
         <tr>
-            <td><a href="index.html">Home</a></td>
-            <td><a href="Profil.Html">Profile</a></td>
-            <td><a href="Kontak.html">Kontak</a></td>
-            <td><a href="DataMahasiswa.Html">Data Mahasiswa</a></td>
+            <td><a href="index.php">Home</a></td>
+            <td><a href="Profil.php">Profile</a></td>
+            <td><a href="Kontak.php">Kontak</a></td>
+            <td><a href="DataMahasiswa.php">Data Mahasiswa</a></td>
         </tr>
     </table>
 
     <h2>Data Mahasiswa</h2>
-    <a href="Inputdata.html">
+    <a href="Inputdata.php">
         <button>Tambah Data Mahasiswa</button>
     </a> 
    

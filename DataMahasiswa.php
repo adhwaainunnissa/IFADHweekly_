@@ -144,3 +144,9 @@ $result = mysqli_query($koneksi, $query);
 
 </body>
 </html>
+
+@media (max-width: 768px) {
+  body {
+    background: pink;
+  }
+}

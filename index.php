@@ -1,54 +1,88 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ADHWA AINUN NISSA</title>
-    
-    <!-- CSS -->
-     <link rel="stylesheet" href="assets/style.css">
-</head>
-<body>
-    <H1> Portofolio Adhwa</H1>
-    <hr/>
+<?php
+$page_title = "Home - Website Informatika";
+require 'header.php';
+?>
 
-    <!-- Navbar -->
-    <table border="1" cellspacing="" cellpading=""> 
-        <tr>
-            <td><a href="index.php">Home</a></td>
-            <td><a href="Profil.php">Profile</a></td>
-            <td><a href="Kontak.php">Kontak</a></td>
-            <td><a href="DataMahasiswa.php">Data Mahasiswa</a></td>
-        </tr>
-    </table>
-    
-    <!-- judul -->
-    <h2>PORTOFOLIO</h2>
+<!-- Kartu Selamat Datang & Hero Section -->
+<div class="card">
+    <div class="hero">
+        <div class="hero-text">
+            <h1>Selamat Datang di Portal Informatika</h1>
+            <p>Portal resmi informasi akademik dan penelitian Program Studi Informatika. Temukan data mahasiswa terbaru, informasi profil civitas akademika, dan daftar jurnal ilmiah terkemuka di sini.</p>
+            
+            <div class="creator-info">
+                <span>Dosen Pembimbing / Kaprodi</span>
+                <h4>Prof. Yoongi Adhwa, Ph.D.</h4>
+            </div>
+        </div>
+        <!-- Menggunakan gambar Yoongi.png yang ada di folder assets/images -->
+        <img class="hero-avatar" src="assets/images/Yoongi.png" alt="Foto Kaprodi" />
+    </div>
+</div>
 
-    <img src="assets/images/Adhwa.JPG" alt ="Foto Adhwa" width="140" height = "160">
+<!-- Kartu Daftar Publikasi Ilmiah -->
+<div class="card">
+    <h3 class="card-title">Daftar Publikasi Ilmiah</h3>
+    <p style="margin-bottom: 20px; color: var(--text-muted);">Berikut adalah indeks publikasi ilmiah dan penelitian aktif di Program Studi Informatika:</p>
     
-    <!-- deskripsi  -->
-    <p style="max-width:600px; text-align: justify;">
-    Adhwa Ainun Nissa adalah mahasiswi S1 Informatika di Universitas Muhammadiyah Semarang 
-    yang memiliki minat besar pada dunia teknologi dan kreativitas digital. 
-    Ia tertarik pada bidang UI/UX design dan front-end development, serta bercita-cita 
-    untuk berkarier di bidang tersebut di masa depan.
-</p>
-
-<ul>
-    <li><b>Nama:</b> Adhwa Ainun Nissa</li>
-    <li><b>Status:</b> <i>Mahasiswa</i></li>
-    <li><b>Prodi:</b> S1 Informatika</li>
-    <li><b>Fakultas:</b> Fakultas Ilmu Komputer</li>
-    <li><b>Email:</b> adhwaadhainss@gmail.com</li>
-    <li><b>Hobi:</b> Desain</li>
-</ul>
-    <h3>Tools yang di kuasain</h3>
-    <ul>
-        <li>Figma</li>
-        <li>Canva</li>
-        <li>Capcut</li>
-        <li>CorelDRAW</li>
+    <ul class="pub-list">
+        <li class="pub-item">
+            <span class="pub-category">Scopus Indexed</span>
+            <div class="pub-title">Pemodelan Sistem Informasi Kebencanaan dan Analisis Sentimen Media Sosial</div>
+            <ul class="pub-sublist">
+                <li class="pub-subitem">Analisis Sentimen Kebijakan Publik Menggunakan Natural Language Processing</li>
+                <li class="pub-subitem">Pemodelan Mitigasi Dampak Abrasi Pantai Berbasis Wireless Sensor Networks</li>
+            </ul>
+        </li>
+        <li class="pub-item">
+            <span class="pub-category">SINTA Nasional (S2)</span>
+            <div class="pub-title">Rancang Bangun Aplikasi Monitoring Evaluasi Mahasiswa Menggunakan Web Native PHP</div>
+        </li>
+        <li class="pub-item">
+            <span class="pub-category">Web of Science (WoS)</span>
+            <div class="pub-title">Secure & Decentralized Architecture for IoT Smart Grid Management using Blockchain</div>
+        </li>
     </ul>
-</body>
-</html>
+</div>
+
+<!-- Kartu Struktur Kurikulum Utama -->
+<div class="card">
+    <h3 class="card-title">Struktur Kurikulum Utama</h3>
+    <div class="table-wrapper">
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Mata Kuliah</th>
+                    <th>Kode MK</th>
+                    <th>SKS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pemrograman Berbasis Web</td>
+                    <td>INF-301</td>
+                    <td>3 SKS</td>
+                </tr>
+                <tr>
+                    <td>Struktur Data dan Algoritma</td>
+                    <td>INF-204</td>
+                    <td>4 SKS</td>
+                </tr>
+                <tr>
+                    <td>Basis Data Lanjut</td>
+                    <td>INF-208</td>
+                    <td>3 SKS</td>
+                </tr>
+                <tr>
+                    <td>Kecerdasan Buatan (AI)</td>
+                    <td>INF-402</td>
+                    <td>3 SKS</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<?php
+require 'footer.php';
+?>

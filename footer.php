@@ -2,7 +2,7 @@
 
 <footer class="main-footer">
     <div class="container">
-        <p>&copy; <?= date('Y'); ?> Program Studi Informatika. Dibuat dengan 💙 untuk Tugas Mandiri Pemrograman Web.</p>
+        <p>&copy; <?= date('Y'); ?> Portofolio Adhwa Ainun Nissa</p>
     </div>
 </footer>
 

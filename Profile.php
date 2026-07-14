@@ -1,18 +1,18 @@
 <?php
-$page_title = "Profil Pembuat - Web Informatika";
+$page_title = "Profile Pembuat - Web Informatika";
 require 'header.php';
 ?>
 
 <div class="card">
-    <h3 class="card-title">Profil Civitas</h3>
+    <h3 class="card-title">Profil Adhwa Ainun Nissa</h3>
     
-    <div class="profile-grid">
+    <div class="Profile-grid">
         <!-- Bagian Foto & Judul Samping -->
         <div class="profile-sidebar">
             <!-- Menggunakan FotoAdhwa.jpeg yang ada di folder assets/images -->
             <img class="profile-picture" src="assets/images/FotoAdhwa.jpeg" alt="Foto Adhwa" />
             <div class="profile-meta">
-                <h3>Adhwa Faiz</h3>
+                <h3>Adhwa Ainun Nissa</h3>
                 <p>Mahasiswa Teknik Informatika</p>
                 <div style="margin-top: 15px;">
                     <span class="btn btn-secondary btn-sm" style="pointer-events: none; border-radius: 20px;">Developer</span>
@@ -27,27 +27,30 @@ require 'header.php';
                 <tr>
                     <td class="label">Nama Lengkap</td>
                     <td>:</td>
-                    <td>Adhwa Faiz Ramadhan</td>
+                    <td>Adhwa Ainun Nissa</td>
                 </tr>
                 <tr>
                     <td class="label">Nomor Induk Mahasiswa (NIM)</td>
                     <td>:</td>
-                    <td>2201010045</td>
+                    <td>13182420038</td>
                 </tr>
                 <tr>
                     <td class="label">Program Studi</td>
                     <td>:</td>
-                    <td>Teknik Informatika (IF)</td>
+                    <td>S1 Informatika</td>
                 </tr>
                 <tr>
                     <td class="label">Konsentrasi Minat</td>
                     <td>:</td>
-                    <td>Web Application Development & AI</td>
+                    <td>
+                         <!-- Memanggil file selection yang terpisah -->
+                        <?php include 'selection.php'; ?>
+                    </td>
                 </tr>
                 <tr>
                     <td class="label">Email Resmi</td>
                     <td>:</td>
-                    <td>adhwafaiz@student.if.ac.id</td>
+                    <td>adhwainun@student.if.ac.id</td>
                 </tr>
                 <tr>
                     <td class="label">Status Akademik</td>

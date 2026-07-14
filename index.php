@@ -7,40 +7,43 @@ require 'header.php';
 <div class="card">
     <div class="hero">
         <div class="hero-text">
-            <h1>Selamat Datang di Portal Informatika</h1>
-            <p>Portal resmi informasi akademik dan penelitian Program Studi Informatika. Temukan data mahasiswa terbaru, informasi profil civitas akademika, dan daftar jurnal ilmiah terkemuka di sini.</p>
+            <h1>Adhwa Ainun Nissa</h1>
+            <p>PAdhwa Ainun Nissa merupakan mahasiswa S1 Informatika Universitas Muhammadiyah Semarang (UNIMUS). Aktif sebagai Google Student Ambassador dan JobStreet Campus Ambassador, Adhwa memiliki minat di bidang UI/UX Design, Front-End Development, serta teknologi digital. Dikenal sebagai pribadi yang aktif, bertanggung jawab, dan memiliki semangat belajar tinggi, Adhwa terus mengembangkan kemampuan melalui organisasi, proyek, dan berbagai kegiatan akademik maupun nonakademik.</p>
             
             <div class="creator-info">
-                <span>Dosen Pembimbing / Kaprodi</span>
-                <h4>Prof. Yoongi Adhwa, Ph.D.</h4>
+                <span>Nama panjang</span>
+                <h4>Adhwa Ainun Nissa</h4>
             </div>
         </div>
-        <!-- Menggunakan gambar Yoongi.png yang ada di folder assets/images -->
+        <!-- Menggunakan gambar  -->
         <img class="hero-avatar" src="assets/images/Yoongi.png" alt="Foto Kaprodi" />
     </div>
 </div>
 
 <!-- Kartu Daftar Publikasi Ilmiah -->
 <div class="card">
-    <h3 class="card-title">Daftar Publikasi Ilmiah</h3>
-    <p style="margin-bottom: 20px; color: var(--text-muted);">Berikut adalah indeks publikasi ilmiah dan penelitian aktif di Program Studi Informatika:</p>
+    <h3 class="card-title">Kemampuan</h3>
+    <p style="margin-bottom: 20px; color: var(--text-muted);">Adhwa Memiliki Kemampuan</p>
     
     <ul class="pub-list">
         <li class="pub-item">
-            <span class="pub-category">Scopus Indexed</span>
-            <div class="pub-title">Pemodelan Sistem Informasi Kebencanaan dan Analisis Sentimen Media Sosial</div>
+            <span class="pub-category">Desain</span>
+            <div class="pub-title">Figma</div>
             <ul class="pub-sublist">
-                <li class="pub-subitem">Analisis Sentimen Kebijakan Publik Menggunakan Natural Language Processing</li>
-                <li class="pub-subitem">Pemodelan Mitigasi Dampak Abrasi Pantai Berbasis Wireless Sensor Networks</li>
+                <li class="pub-subitem">Canva</li>
+                <li class="pub-subitem">Capcut</li>
+                <li class="pub-subitem">CorelDRAW</li>
             </ul>
         </li>
         <li class="pub-item">
-            <span class="pub-category">SINTA Nasional (S2)</span>
-            <div class="pub-title">Rancang Bangun Aplikasi Monitoring Evaluasi Mahasiswa Menggunakan Web Native PHP</div>
+            <span class="pub-category">Public Speaking</span>
+            <div class="pub-title">Master Of Ceremonies</div>
+            <div class="pub-title">Moderator</div>
         </li>
         <li class="pub-item">
-            <span class="pub-category">Web of Science (WoS)</span>
-            <div class="pub-title">Secure & Decentralized Architecture for IoT Smart Grid Management using Blockchain</div>
+            <span class="pub-category">Pengalaman</span>
+            <div class="pub-title">Google Student Ambassador</div>
+            <div class="pub-title">JobStreet Campus Ambassador</div>
         </li>
     </ul>
 </div>

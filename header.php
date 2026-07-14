@@ -16,7 +16,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 <header class="main-header">
     <div class="container navbar">
         <div class="nav-brand">
-            <span>🎓 Web Informatika</span>
+            <span>PORTOFOLIO</span>
         </div>
         <nav>
             <ul class="nav-menu">
